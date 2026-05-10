@@ -11,5 +11,9 @@ morse: src/morse.c
 number: src/number.c
 	$(CC) $(CFLAGS) -o bin/number$(APPEND) src/number.c
 
+arithmetic:
+	@echo "Sorry, but arithmetic does not currently work on ELKS."
+	@echo "See Github issue #1 for more info."
+
 clean:
 	rm -f bin/*$(APPEND)

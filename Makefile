@@ -11,5 +11,8 @@ morse: src/morse.c
 number: src/number.c
 	$(CC) $(CFLAGS) -o bin/number$(APPEND) src/number.c
 
+arithmetic: src/arithmetic.c
+	$(CC) $(CFLAGS) -o bin/arithmetic$(APPEND) src/arithmetic.c
+
 clean:
 	rm -f bin/*$(APPEND)
