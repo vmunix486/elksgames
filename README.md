@@ -18,4 +18,4 @@ urlget http://192.168.1.90:3923/src/nixgames/bin/fish.elks >> fish
  - `morse` - Morse code translator from 2.11BSD
  - `number` - Changes numbers to Long form, eg. 1000 turns into one thousand. From 2.11BSD
  - `arithmetic` - Simple math problems. From 2.11BSD. Does not compile for ELKS, see Issue #1.
- - `ppt` - I have no clue what this does. From 2.11BSD
+ - `ppt` - Converts ASCII to visual binary. From 2.11BSD
