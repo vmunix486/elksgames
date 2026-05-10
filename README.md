@@ -16,3 +16,4 @@ urlget http://192.168.1.90:3923/src/elksgames/bin/fish.elks >> fish
 
  - `fish` - Go fish game from 2.11BSD
  - `morse` - Morse code translator from 2.11BSD
+ - `number` - Changes numbers to Long form, eg. 1000 turns into one thousand. From 2.11BSD
