@@ -26,5 +26,9 @@ banner: src/banner.c
 	@echo " "
 	$(CC) $(CFLAGS) -o bin/banner$(APPEND) src/banner.c
 
+bcd:
+	@echo "Sorry, but bcd does not currently work on ELKS."
+	@echo "See Github issue #2 for more info."
+
 clean:
 	rm -f bin/*$(APPEND)

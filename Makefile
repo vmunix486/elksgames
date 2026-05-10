@@ -20,5 +20,8 @@ ppt: src/ppt.c
 banner: src/banner.c
 	$(CC) $(CFLAGS) -o bin/banner$(APPEND) src/banner.c
 
+bcd: src/bcd.c
+	$(CC) $(CFLAGS) -o bin/bcd$(APPEND) src/bcd.c
+
 clean:
 	rm -f bin/*$(APPEND)

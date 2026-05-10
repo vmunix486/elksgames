@@ -8,7 +8,7 @@ First, go into the top level directory, with all the Makefiles and stuff, then r
 If you want to cross compile to ELKS, use the `Makefile.elks` Makefile to compile. By default, it will use `ia16-elf-gcc` from your `$PATH`, but you <i>could</i> probably compile with BCC, but I have not tried it yet.
 
 Tip: If you want to transfer the executable to your ELKS machine, enable networking on the ELKS machine, then get and start [copyparty](https://github.com/9001/copyparty) on your host machine, then you can use the `urlget` command on the ELKS machine to download it. An example for my system would be:
-```
+```bash
 urlget http://192.168.1.90:3923/src/nixgames/bin/fish.elks >> fish
 ```
 
@@ -20,3 +20,4 @@ urlget http://192.168.1.90:3923/src/nixgames/bin/fish.elks >> fish
  - `arithmetic` - Simple math problems. From 2.11BSD. Does not compile for ELKS, see Issue #1.
  - `ppt` - Converts ASCII to visual binary. From 2.11BSD
  - `banner` - Makes really big horizontal text. Useful for making banners on physical paper. From 2.11BSD
+ - `bcd` - I have no clue what it does. From 2.11BSD. Does not link for ELKS, see Issue #2.
