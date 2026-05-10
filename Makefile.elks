@@ -1,0 +1,12 @@
+CFLAGS=		-Os -std=c89 -w -melks -mcmodel=small -march=i8088 $(DEFS)
+CC=		ia16-elf-gcc
+APPEND=		.elks
+
+fish: src/fish.c
+	$(CC) $(CFLAGS) -o bin/fish$(APPEND) src/fish.c
+
+morse: src/morse.c
+	$(CC) $(CFLAGS) -o bin/morse$(APPEND) src/morse.c
+
+clean:
+	rm -f bin/*$(APPEND)
