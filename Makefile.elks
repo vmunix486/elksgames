@@ -15,5 +15,8 @@ arithmetic:
 	@echo "Sorry, but arithmetic does not currently work on ELKS."
 	@echo "See Github issue #1 for more info."
 
+ppt: src/ppt.c
+	$(CC) $(CFLAGS) -o bin/ppt$(APPEND) src/ppt.c
+
 clean:
 	rm -f bin/*$(APPEND)

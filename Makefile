@@ -14,5 +14,8 @@ number: src/number.c
 arithmetic: src/arithmetic.c
 	$(CC) $(CFLAGS) -o bin/arithmetic$(APPEND) src/arithmetic.c
 
+ppt: src/ppt.c
+	$(CC) $(CFLAGS) -o bin/ppt$(APPEND) src/ppt.c
+
 clean:
 	rm -f bin/*$(APPEND)
