@@ -9,7 +9,7 @@ If you want to cross compile to ELKS, use the `Makefile.elks` Makefile to compil
 
 Tip: If you want to transfer the executable to your ELKS machine, enable networking on the ELKS machine, then get and start [copyparty](https://github.com/9001/copyparty) on your host machine, then you can use the `urlget` command on the ELKS machine to download it. An example for my system would be:
 ```
-urlget http://192.168.1.90:3923/src/elksgames/bin/fish.elks >> fish
+urlget http://192.168.1.90:3923/src/nixgames/bin/fish.elks >> fish
 ```
 
 # Files and their origins
