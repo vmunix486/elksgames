@@ -19,3 +19,4 @@ urlget http://192.168.1.90:3923/src/nixgames/bin/fish.elks >> fish
  - `number` - Changes numbers to Long form, eg. 1000 turns into one thousand. From 2.11BSD
  - `arithmetic` - Simple math problems. From 2.11BSD. Does not compile for ELKS, see Issue #1.
  - `ppt` - Converts ASCII to visual binary. From 2.11BSD
+ - `banner` - Makes really big horizontal text. Useful for making banners on physical paper. From 2.11BSD

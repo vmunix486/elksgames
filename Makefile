@@ -17,5 +17,8 @@ arithmetic: src/arithmetic.c
 ppt: src/ppt.c
 	$(CC) $(CFLAGS) -o bin/ppt$(APPEND) src/ppt.c
 
+banner: src/banner.c
+	$(CC) $(CFLAGS) -o bin/banner$(APPEND) src/banner.c
+
 clean:
 	rm -f bin/*$(APPEND)

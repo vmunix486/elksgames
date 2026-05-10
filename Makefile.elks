@@ -18,5 +18,13 @@ arithmetic:
 ppt: src/ppt.c
 	$(CC) $(CFLAGS) -o bin/ppt$(APPEND) src/ppt.c
 
+banner: src/banner.c
+	@echo "ELKS already has a banner program built-in as of 0.9.1."
+	@echo "This banner program is for if you have a paper terminal"
+	@echo "and you want really big banners on physical paper."
+	@echo "The built-in ELKS banner is much more akin to figlet."
+	@echo " "
+	$(CC) $(CFLAGS) -o bin/banner$(APPEND) src/banner.c
+
 clean:
 	rm -f bin/*$(APPEND)
