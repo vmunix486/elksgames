@@ -1,4 +1,4 @@
-# elksgames
+# nixgames
 Various UNIX games ported to ELKS and modern platforms as well.
 
 # Compilation
